@@ -5,11 +5,9 @@
     "rootDir": "./",
     "outDir": "./dist",
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "resolveJsonModule": true,
-    "types": ["node", "express", "mongoose", "cors"]
+    "skipLibCheck": true,
+    "strict": true
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules", "dist"]
